@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="element" type="text" />
+    <button onclick="handleClick()">click me</button>
+    <p id="result">result</p>
+    <script>
+      const arr = [1, 213, 43, 55, 632, 24, 66, 77];
+      for (let index = 0; index < arr.length; index++) {
+        document.write(`${arr[index]} <br>`);
+      }
+
+      arr.forEach((elem, ind, arrx) => {
+        console.log("element:", elem, "index", ind, "array:", arrx);
+        // console.log(arr);
+      });
+
+      function handleClick() {
+        let element = document.querySelector("#element").value;
+        let result = document.querySelector("#result");
+        if (element < arr.length && element >= 0) {
+          result.innerHTML = arr[element];
+          console.log(!isNaN(element));
+        } else {
+          result.innerHTML = "enter valid index";
+           console.log(!isNaN(element));
+        }
+      }
+    </script>
+  </body>
+</html>
