@@ -1,4 +1,4 @@
-// JavaScript String Cheat Sheet
+// JavaScript String Cheat Sheet complete guide
 
 // // 1. Creating Strings
 // const str1 = 'Hello, World!'; // Using single quotes
