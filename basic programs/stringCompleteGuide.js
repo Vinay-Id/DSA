@@ -418,3 +418,4 @@
 // const str = '42';
 // const paddedStr = str.padEnd(4, '0');
 // console.log(paddedStr); // Output: '4200'
+
