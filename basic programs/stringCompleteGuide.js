@@ -1,4 +1,4 @@
-// JavaScript String Cheat Sheet
+// JavaScript String Cheat Sheet complete guide
 
 // // 1. Creating Strings
 // const str1 = 'Hello, World!'; // Using single quotes
@@ -419,3 +419,81 @@
 // const paddedStr = str.padEnd(4, '0');
 // console.log(paddedStr); // Output: '4200'
 
+<<<<<<< HEAD
+=======
+// Question 26: How do you remove all occurrences of a substring from a string using replaceAll?
+// const str = 'hello world hello';
+// const replacedStr = str.replaceAll('hello', 'hi');
+// console.log(replacedStr); // Output: 'hi world hi'
+
+// // Question 27: How do you get the character at a specific index in a string using charAt?
+// const str = 'Hello, World!';
+// const character = str.charAt(7);
+// console.log(character); // Output: 'W'
+
+// // Question 28: How do you get the code point at a specific index in a string using codePointAt?
+// const str = '😀🌍';
+// const codePoint = str.codePointAt(0);
+// console.log(codePoint); // Output: 128512
+
+// // Question 29: How do you normalize a string using normalize?
+// const str = 'lémon';
+// const normalizedStr = str.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+// console.log(normalizedStr); // Output: 'lemon'
+
+// // Question 30: How do you find all occurrences of a pattern in a string using matchAll?
+// const str = 'The quick brown fox jumps over the lazy dog.';
+// const regex = /o/g;
+// const matches = [...str.matchAll(regex)];
+// console.log(matches); // Output: [ [ 'o', index: 12, input: 'The quick brown fox jumps over the lazy dog.' ], [ 'o', index: 15, input: 'The quick brown fox jumps over the lazy dog.' ], [ 'o', index: 25, input: 'The quick brown fox jumps over the lazy dog.' ], [ 'o', index: 30, input: 'The quick brown fox jumps over the lazy dog.' ] ]
+
+// // Question 31: How do you find the first occurrence of a substring in a string using search?
+// const str = 'The quick brown fox jumps over the lazy dog.';
+// const searchIndex = str.search('fox');
+// console.log(searchIndex); // Output: 16
+
+// // Question 32: How do you get a specific character from a string using String.prototype.at?
+// const str = 'abc';
+// const character = str.at(1);
+// console.log(character); // Output: 'b'
+
+// // Question 33: How do you use String.raw to create a raw string?
+// const path = String.raw`C:\Windows\System32\cmd.exe`;
+// console.log(path); // Output: 'C:\Windows\System32\cmd.exe'
+
+// // Question 34: How do you compare two strings using localeCompare?
+// const str1 = 'apple';
+// const str2 = 'banana';
+// const comparisonResult = str1.localeCompare(str2);
+// console.log(comparisonResult); // Output: -1 (str1 comes before str2)
+
+// // Question 35: How do you trim whitespace from the beginning of a string using trimStart (ES2019)?
+// const str = '   Trim me!   ';
+// const trimmedStart = str.trimStart();
+// console.log(trimmedStart); // Output: 'Trim me!   '
+
+// // Question 36: How do you trim whitespace from the end of a string using trimEnd (ES2019)?
+// const str = '   Trim me!   ';
+// const trimmedEnd = str.trimEnd();
+// console.log(trimmedEnd); // Output: '   Trim me!'
+
+// // Question 37: How do you convert a string to an array of characters using Array.from?
+// const str = 'Hello, World!';
+// const charArray = Array.from(str);
+// console.log(charArray); // Output: [ 'H', 'e', 'l', 'l', 'o', ',', ' ', 'W', 'o', 'r', 'l', 'd', '!' ]
+
+// // Question 38: How do you use String.prototype.repeat to repeat a string (ES2015)?
+// const str = 'abc';
+// const repeatedStr = str.repeat(3);
+// console.log(repeatedStr); // Output: 'abcabcabc'
+
+// // Question 39: How do you find the Unicode code point of a character using String.prototype.codePointAt (ES2015)?
+// const str = '😀';
+// const codePoint = str.codePointAt(0);
+// console.log(codePoint); // Output: 128512
+
+// // Question 40: How do you use String.prototype.normalize to normalize a string (ES2015)?
+// const str = 'lémon';
+// const normalizedStr = str.normalize();
+// console.log(normalizedStr); // Output: 'lémon'
+>>>>>>> 1070c0ddeff1759dccf2388d47e718e5c6ea09a9
