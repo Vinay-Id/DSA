@@ -19,3 +19,14 @@ var numJewelsInStones = function (jewels, stones) {
   }
   return total;
 };
+
+
+// var numJewelsInStones = function(jewels, stones) {
+//     var count = 0
+//     for(var i = 0; i < stones.length; i++){
+//         if(jewels.includes(stones[i]))
+//             count ++
+//     }
+
+//     return count;
+// };
