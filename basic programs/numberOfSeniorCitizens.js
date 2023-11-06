@@ -7,7 +7,17 @@
 // Output: 0
 // Explanation: None of the passengers are older than 60.
 
-var countSeniors = function (details) {
-  let age = details.map((elem) => parseInt(elem[11] + elem[12]));
-  return age.filter((elem) => elem > 60).length;
+// var countSeniors = function (details) {
+//   let age = details.map((elem) => parseInt(elem[11] + elem[12]));
+//   return age.filter((elem) => elem > 60).length;
+// };
+
+var countSeniors = function(details) {
+  let age=0
+  for(let i=0;i<details.length;i++){
+      if(parseInt(details[i].slice(11,13))>60){
+          age++
+      }
+  }
+  return age;
 };
