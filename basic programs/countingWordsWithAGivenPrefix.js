@@ -18,3 +18,12 @@ var prefixCount = function (words, pref) {
 };
 
 
+// var prefixCount = function(words, pref) {
+//     let output=0;
+//     for(let i=0;i<words.length;i++){
+//         if(words[i].slice(0,pref.length)==pref){
+//             output++
+//         }
+//     } 
+//     return output;
+//  };
